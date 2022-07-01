@@ -1,0 +1,241 @@
+body{
+	font-family: 'Noto Sans', sans-serif;		
+}
+a{
+	text-decoration: none;
+	color: white;
+	display: block;
+    padding: 30px;
+}
+a:hover{
+    color: #000;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    top: 0;
+}
+li{
+	display: inline-block;
+	margin: 10px;
+	font-size: 24px;
+}
+.header{
+	width: 100%;
+    background-color: #007765;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 21;
+    transition: height 1s ease-in-out;
+}
+.menu{
+	width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px
+}
+.container{
+	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+	display: inline-block;
+}
+.B{
+    margin-left: -50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.f_container{
+    position: relative;
+    padding-top: 83px;
+}
+.a_container{
+    min-width: 1109px;
+}
+.a_container__title{
+    position: absolute;
+    height: 83px;
+    left: 0px;
+    top: 244px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 50%;
+    right: 0%;
+}
+.sblock{
+    text-align: center;
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 15px 55px 0 55px;
+    height: 719px;
+    left: 0px;
+    top: 487px;
+    min-width: 1109px;
+}
+.sblock h2{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-top: 48px;
+}
+.sblock p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 55px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0 20px 0 20px;
+}
+.herocontainer {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+  background-size: cover;
+  background-position: center center;
+  min-width: 1109px;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+.Introducing h1{
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+margin: 45px;
+}
+.Introducing p{
+font-weight: 400;
+font-size: 32px;
+margin: 0;
+padding: 0 0 40px 0;
+line-height: 38px;
+}
+.Introducing img{
+float: left;
+margin: 0 40px 0 40px;
+}
+.Introducing{
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 15px 55px 0 55px;
+    height: 719px;
+    left: 0px;
+    top: 487px;
+    min-width: 1109px;
+}
+.theteam{
+    background-color: #EEEEEE;
+    margin-top: -50px;
+    min-width: 1109px;
+}
+.theteam h1{
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+padding: 40px;
+}
+.theteam p{
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+.theteam h2{
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #007765;
+}
+.teamprofiles{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1109px;
+}
+.Richard{
+    flex-basis: 33.3333%;
+    text-align: center;
+    height: 231px;
+    margin-bottom: 82px;
+}
+.Dinesh{
+    flex-basis: 33.3333%;
+    text-align: center;
+    height: 231px;
+    margin-bottom: 82px;
+}
+.Bertram{
+    flex-basis: 33.3333%;
+    text-align: center;
+    height: 231px;
+    margin-bottom: 82px;
+}
+.Jared{
+    flex-basis: 33.3333%;
+    text-align: center;
+    height: 231px;
+    margin-bottom: 82px;
+}
+.Monica{
+    flex-basis: 33.3333%;
+    text-align: center;
+    height: 231px;
+    margin-bottom: 82px;
+}
+.Nelson{
+    flex-basis: 33.3333%;
+    text-align: center;
+    height: 231px;
+    margin-bottom: 82px;
+}
+.basement{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 48px;
+}
