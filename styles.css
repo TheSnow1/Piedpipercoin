@@ -233,7 +233,7 @@ color: #007765;
 .basement{
     background-color: #333333;
     color: #fff;
-    width:113%;
+    min-width: 1109px;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
